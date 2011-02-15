@@ -1,0 +1,8 @@
+Install instructions
+====================
+
+First make sure you have the django-mongorunner/mongorunner directory on your
+PYTHONPATH.
+
+Specify the testrunner in your settings.py:
+    TEST_RUNNER = 'mongorunner.TestRunner'
